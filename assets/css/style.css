@@ -25,7 +25,7 @@ body {
 	background: #ffffff;
 	margin: 0;
 	height: 100%;
-	color: #384452;
+	color: #313131;
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
 	}
@@ -42,7 +42,7 @@ p {
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 24px;
-	color: #384452;
+	color: #313131;
 	margin-top: 10px;
 }
 
@@ -62,7 +62,7 @@ ol {
 }
 
 a {
-    color:#428bca;
+    color:#fd9b14;
     padding: 0;
 	margin: 0;
 	text-decoration: none;
@@ -75,18 +75,18 @@ a {
 a:hover,
 a:focus {
   text-decoration: none;
-  color:#01b2fe;
+  color:#ce681e;
 }
 
 ::-moz-selection  {
 	color: #fff;
 	text-shadow:none;
-	background:#384452;
+	background:#313131;
 }
 ::selection {
 	color: #fff;
 	text-shadow:none;
-	background:#384452;
+	background:#313131;
 }
 
 .centered {
@@ -130,11 +130,11 @@ a:focus {
 }
 
 .navbar-default .navbar-nav > li > a:hover {
-	color: #00b3fe;
+	color: #ce681e;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color: #00b3fe;
+	color: #ce681e;
 	background-color: transparent;
 }
 
@@ -144,7 +144,7 @@ a:focus {
 }
 
 .dropdown-menu {
-	background: #384452;
+	background: #313131;
 }
 
 .dropdown-menu > li > a {
@@ -155,8 +155,8 @@ a:focus {
 
 .btn-theme {
   color: #fff;
-  background-color: #384452;
-  border-color: #384452;
+  background-color: #313131;
+  border-color: #313131;
   margin: 4px;
 }
 .btn-theme:hover,
@@ -165,8 +165,8 @@ a:focus {
 .btn-theme.active,
 .open .dropdown-toggle.btn-theme {
   color: #fff;
-  background-color: #00b3fe;
-  border-color: #00b3fe;
+  background-color: #ce681e;
+  border-color: #ce681e;
 }
 
 .dmbutton:hover,
@@ -216,7 +216,7 @@ a:focus {
 }
 
 .hline {
-	border-bottom: 2px solid #384452;
+	border-bottom: 2px solid #313131;
 }
 
 .hline-w {
@@ -309,7 +309,7 @@ a:focus {
 #service i {
 	font-size: 60px;
 	padding: 15px;
-	color: #00b3fe;
+	color: #ce681e;
 }
 
 /* Portfolio Wrap */
@@ -376,8 +376,8 @@ a:focus {
 
 /* Testimonials Wrap */
 #twrapback {
-    background-color: #00b3fe;
-    background-color:rgba(0,179,254,.8);
+    background-color: #ce681e;
+    background-color:rgba(206,104,30,.8);
     position: absolute;
     top: 0;
     left: 0;
@@ -433,11 +433,11 @@ a:focus {
 
 /* Footer */
 #footerwrap {
-	background: #384452;
+	background: #313131;
 }
 
 #footerwrap p {
-	color: #bfc9d3;
+	color: #ffffff;
 }
 
 #footerwrap h4 {
@@ -450,7 +450,7 @@ a:focus {
 /* General Tweaks */
 
 #blue {
-	background: #00b3fe;
+	background: #ce681e;
 	margin-bottom: 60px;
 	padding-top: 25px;
 	padding-bottom: 25px;
@@ -484,7 +484,7 @@ a:focus {
 }
 
 .ctitle {
-	color: #00b3fe;
+	color: #ce681e;
 	font-weight: 700;
 	margin-bottom: 15px;
 }
@@ -500,7 +500,7 @@ csmall {
 }
 
 .badge-theme {
-	background: #00b3fe;
+	background: #ce681e;
 }
 
 /* Contact Page */
@@ -602,5 +602,15 @@ a.anchor{
 }
 
 #social a:hover {
-	background-color: #00b3fe !important;
+	background-color: #ce681e !important;
+}
+
+.btn-primary {
+	background-color: #fd9b14;
+	border-color: #fd9b14;
+}
+
+.btn-primary:hover {
+	background-color: #ce681e;
+	border-color: #fd9b14;
 }
