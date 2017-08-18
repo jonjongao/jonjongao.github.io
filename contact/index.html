@@ -38,7 +38,7 @@
 
 
 <body>
-    <div id="headerwrap" class="col-xs-12 col-md-5 no-gutters" style="background-image: url('/assets/img/header-background.jpg')">
+    <div id="headerwrap" class="col-xs-12 col-md-4 no-gutters" style="background-image: url('/assets/img/header-background.jpg')">
         
 
         <div id="profile" class="container-fluid">
@@ -47,7 +47,7 @@
             <img src="/assets/img/avatar.jpg" alt="Jon Gao" class="img-responsive img-circle">
         </div>
         <div id="description" class="col-xs-12 col-md-12">
-            <a href=""><h1>Jon Gao</h1></a>
+            <a href="http://localhost:4000"><h1>Jon Gao</h1></a>
             <p>Game Developer, 2D Artist, Program Ranger. I love making video game, helping people, facing challenge and seeking solution</p>
         </div>
         <div id="social" class="col-xs-12 col-md-12">
@@ -91,7 +91,7 @@
 </div>
 
     </div>
-    <div id="contentwrap" class="col-xs-12 col-md-7 no-gutters">
+    <div id="contentwrap" class="col-xs-12 col-md-8 no-gutters">
         <div id="blue">
     <div class="container-fluid">
         <div class="row">
@@ -254,6 +254,9 @@ $(document).ready(function() {
 		function getColumnNumber() {
 			var winWidth = $('#portfoliowrap').width(),
 			columnNumber = 1;
+
+      console.log(winWidth);
+
 
 			if (winWidth > 300 * 4 + 10 * 8) {
 				columnNumber = 4;
