@@ -363,6 +363,21 @@
     
     
     
+        
+        
+        <link rel="prefetch" href="/assets/img/projects/6th-gima-projection-mapping/thumbnail-1.jpg">
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     
     
@@ -510,21 +525,21 @@
     
         
         
-        <link rel="prefetch" href="/assets/img/projects/formica-projection-mapping/thumbnail-1.gif">
+        <link rel="prefetch" href="/assets/img/projects/formica-projection-mapping/thumbnail-1.jpg">
         
     
     
     
         
         
-        <link rel="prefetch" href="/assets/img/projects/halloween-big-bump-party-projection-mapping-anim-2_thumbnail_600x225.gif">
+        <link rel="prefetch" href="/assets/img/projects/formica-projection-mapping/thumbnail-2.gif">
         
     
     
     
         
         
-        <link rel="prefetch" href="/assets/img/projects/havefloors_thumbnail_300x300.jpg">
+        <link rel="prefetch" href="/assets/img/projects/havefloors-website/havefloors_thumbnail_300x300.jpg">
         
     
     
@@ -599,6 +614,19 @@
         
         
         <link rel="prefetch" href="/assets/img/projects/kkl-halloween-game/thumbnail-2.gif">
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        
+        
+        <link rel="prefetch" href="/assets/img/projects/kkl-halloween-projection-mapping/thumbnail-1.jpg">
         
     
     
@@ -694,13 +722,6 @@
         
         
         <link rel="prefetch" href="/assets/img/projects/mayday-history-of-tomorrow-interactive-album/thumbnail-2.jpg">
-        
-    
-    
-    
-        
-        
-        <link rel="prefetch" href="/assets/img/projects/moca-projection-mapping-anim_thumbnail_600x225.gif">
         
     
     
@@ -1331,7 +1352,7 @@ $(document).ready(function() {
   $('.portfolio').find('.img-overlay').hover(showHover, showNormal);
 
   function showHover() {
-    if($(this).data('hover') != '') {
+    if($(this).data('hover') != '' && $(this).data('hover') != $(this).data('normal')) {
       $(this).css(
         'background-image', 'url(' + $(this).data('hover') + ')'
       );
@@ -1339,7 +1360,7 @@ $(document).ready(function() {
   }
 
   function showNormal() {
-    if($(this).data('normal') != '') {
+    if($(this).data('normal') != '' && $(this).data('normal') != $(this).data('hover')) {
       $(this).css(
         'background-image', 'url(' + $(this).data('normal') + ')'
       );
